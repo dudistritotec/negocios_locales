@@ -8,11 +8,7 @@ permalink: /metodologia/
 
 ## Origen de los datos
 
-La base parte de un levantamiento propio (Reveel) de negocios y puntos de interés dentro de DistritoTec, Monterrey: 216 filas con nombre, categoría de Google Places, dirección, coordenadas, descripción y enlace a Google Maps.
-
-## Limpieza
-
-Se descartaron 8 filas donde el campo "Nombre" contenía en realidad una dirección postal (sin nombre comercial identificable), por no aportar valor al análisis. El conjunto final analizado es de **207 registros**, todos con coordenadas válidas.
+La base parte de un levantamiento propio de negocios y puntos de interés dentro de distritotec, Monterrey: 216 filas con nombre, categoría de Google Places, dirección, coordenadas, descripción y enlace a Google Maps.
 
 ## Familias de negocio
 
@@ -44,12 +40,5 @@ La red conceptual (inspirada en los mapas de códigos de software de análisis c
 3. **Giro específico** — el subtipo inferido, solo aplicable a gastronomía (p. ej. Tacos, antojitos y tortas).
 
 El tamaño de cada nodo es proporcional al número de negocios que agrupa.
-
-## Herramientas
-
-- Procesamiento de datos: Python (openpyxl).
-- Red conceptual: [vis-network](https://visjs.github.io/vis-network/).
-- Mapa: [Leaflet](https://leafletjs.com/) con teselas de CARTO.
-- Sitio: Jekyll, listo para publicarse con GitHub Pages.
 
 </main>

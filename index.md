@@ -79,7 +79,7 @@ Esa combinación —campus, comida y calle— es la que la red conceptual de la 
 
 ## Cómo explorar este sitio
 
-- **[Red conceptual]({{ '/red-conceptual/' | relative_url }}):** el ecosistema como diagrama de nodos, al estilo de un mapa de códigos de Atlas.ti — familia → categoría → giro específico.
+- **[Red conceptual]({{ '/red-conceptual/' | relative_url }}):** el ecosistema como diagrama de nodos.
 - **[Mapa]({{ '/mapa/' | relative_url }}):** los 207 puntos ubicados geográficamente sobre DistritoTec.
 - **[Directorio]({{ '/directorio/' | relative_url }}):** la lista completa, filtrable por familia, categoría y giro.
 - **[Metodología]({{ '/metodologia/' | relative_url }}):** cómo se levantaron y clasificaron los datos.
