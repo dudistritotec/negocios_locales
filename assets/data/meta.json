@@ -1,0 +1,33 @@
+{
+ "fam_order": [
+  "Gastronomía y Bebidas",
+  "Espacio Público y Naturaleza",
+  "Arte Urbano",
+  "Cultura y Entretenimiento",
+  "Educación e Innovación",
+  "Comercio y Servicios",
+  "Deporte y Bienestar",
+  "Sin clasificar"
+ ],
+ "fam_color": {
+  "Gastronomía y Bebidas": "#C4531D",
+  "Espacio Público y Naturaleza": "#3F6B4F",
+  "Arte Urbano": "#B0308F",
+  "Cultura y Entretenimiento": "#2C5F8A",
+  "Educación e Innovación": "#8A6D2C",
+  "Comercio y Servicios": "#5B4A8A",
+  "Deporte y Bienestar": "#2C8A7A",
+  "Sin clasificar": "#6B6B6B"
+ },
+ "fam_counts": {
+  "Arte Urbano": 17,
+  "Gastronomía y Bebidas": 127,
+  "Cultura y Entretenimiento": 15,
+  "Comercio y Servicios": 5,
+  "Espacio Público y Naturaleza": 23,
+  "Educación e Innovación": 8,
+  "Sin clasificar": 9,
+  "Deporte y Bienestar": 3
+ },
+ "total": 207
+}

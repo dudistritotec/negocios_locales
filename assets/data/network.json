@@ -1,0 +1,764 @@
+{
+ "nodes": [
+  {
+   "id": "root",
+   "label": "DistritoTec",
+   "group": "root",
+   "level": 0,
+   "count": 207,
+   "color": "#F6F4EC",
+   "filter": {}
+  },
+  {
+   "id": "n0",
+   "label": "Gastronomía y Bebidas",
+   "group": "familia",
+   "level": 1,
+   "count": 127,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas"
+   }
+  },
+  {
+   "id": "n1",
+   "label": "Restaurant",
+   "group": "categoria",
+   "level": 2,
+   "count": 89,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant"
+   }
+  },
+  {
+   "id": "n2",
+   "label": "Tacos, antojitos y tortas",
+   "group": "giro",
+   "level": 3,
+   "count": 35,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Tacos, antojitos y tortas"
+   }
+  },
+  {
+   "id": "n3",
+   "label": "Otras propuestas gastronómicas",
+   "group": "giro",
+   "level": 3,
+   "count": 22,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Otras propuestas gastronómicas"
+   }
+  },
+  {
+   "id": "n4",
+   "label": "Hamburguesas, pizza y comida rápida",
+   "group": "giro",
+   "level": 3,
+   "count": 13,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Hamburguesas, pizza y comida rápida"
+   }
+  },
+  {
+   "id": "n5",
+   "label": "Café y repostería",
+   "group": "giro",
+   "level": 3,
+   "count": 5,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Café y repostería"
+   }
+  },
+  {
+   "id": "n6",
+   "label": "Cocina internacional",
+   "group": "giro",
+   "level": 3,
+   "count": 5,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Cocina internacional"
+   }
+  },
+  {
+   "id": "n7",
+   "label": "Bares y cantinas",
+   "group": "giro",
+   "level": 3,
+   "count": 3,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Bares y cantinas"
+   }
+  },
+  {
+   "id": "n8",
+   "label": "Comida casera y regional",
+   "group": "giro",
+   "level": 3,
+   "count": 3,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Comida casera y regional"
+   }
+  },
+  {
+   "id": "n9",
+   "label": "Cocina saludable",
+   "group": "giro",
+   "level": 3,
+   "count": 2,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Cocina saludable"
+   }
+  },
+  {
+   "id": "n10",
+   "label": "Mariscos",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Restaurant",
+    "giro": "Mariscos"
+   }
+  },
+  {
+   "id": "n11",
+   "label": "Cafe",
+   "group": "categoria",
+   "level": 2,
+   "count": 18,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe"
+   }
+  },
+  {
+   "id": "n12",
+   "label": "Café y repostería",
+   "group": "giro",
+   "level": 3,
+   "count": 11,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe",
+    "giro": "Café y repostería"
+   }
+  },
+  {
+   "id": "n13",
+   "label": "Otras propuestas gastronómicas",
+   "group": "giro",
+   "level": 3,
+   "count": 3,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe",
+    "giro": "Otras propuestas gastronómicas"
+   }
+  },
+  {
+   "id": "n14",
+   "label": "Cocina saludable",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe",
+    "giro": "Cocina saludable"
+   }
+  },
+  {
+   "id": "n15",
+   "label": "Snacks y antojos de calle",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe",
+    "giro": "Snacks y antojos de calle"
+   }
+  },
+  {
+   "id": "n16",
+   "label": "Tacos, antojitos y tortas",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe",
+    "giro": "Tacos, antojitos y tortas"
+   }
+  },
+  {
+   "id": "n17",
+   "label": "Cocina internacional",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Cafe",
+    "giro": "Cocina internacional"
+   }
+  },
+  {
+   "id": "n18",
+   "label": "Bar",
+   "group": "categoria",
+   "level": 2,
+   "count": 10,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Bar"
+   }
+  },
+  {
+   "id": "n19",
+   "label": "Bares y cantinas",
+   "group": "giro",
+   "level": 3,
+   "count": 9,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Bar",
+    "giro": "Bares y cantinas"
+   }
+  },
+  {
+   "id": "n20",
+   "label": "Otras propuestas gastronómicas",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Bar",
+    "giro": "Otras propuestas gastronómicas"
+   }
+  },
+  {
+   "id": "n21",
+   "label": "Snacks",
+   "group": "categoria",
+   "level": 2,
+   "count": 8,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Snacks"
+   }
+  },
+  {
+   "id": "n22",
+   "label": "Snacks y antojos de calle",
+   "group": "giro",
+   "level": 3,
+   "count": 6,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Snacks",
+    "giro": "Snacks y antojos de calle"
+   }
+  },
+  {
+   "id": "n23",
+   "label": "Comida casera y regional",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Snacks",
+    "giro": "Comida casera y regional"
+   }
+  },
+  {
+   "id": "n24",
+   "label": "Café y repostería",
+   "group": "giro",
+   "level": 3,
+   "count": 1,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Snacks",
+    "giro": "Café y repostería"
+   }
+  },
+  {
+   "id": "n25",
+   "label": "Bakery",
+   "group": "categoria",
+   "level": 2,
+   "count": 2,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Bakery"
+   }
+  },
+  {
+   "id": "n26",
+   "label": "Café y repostería",
+   "group": "giro",
+   "level": 3,
+   "count": 2,
+   "color": "#C4531D",
+   "filter": {
+    "familia": "Gastronomía y Bebidas",
+    "categoria": "Bakery",
+    "giro": "Café y repostería"
+   }
+  },
+  {
+   "id": "n27",
+   "label": "Espacio Público y Naturaleza",
+   "group": "familia",
+   "level": 1,
+   "count": 23,
+   "color": "#3F6B4F",
+   "filter": {
+    "familia": "Espacio Público y Naturaleza"
+   }
+  },
+  {
+   "id": "n28",
+   "label": "Park",
+   "group": "categoria",
+   "level": 2,
+   "count": 23,
+   "color": "#3F6B4F",
+   "filter": {
+    "familia": "Espacio Público y Naturaleza",
+    "categoria": "Park"
+   }
+  },
+  {
+   "id": "n29",
+   "label": "Arte Urbano",
+   "group": "familia",
+   "level": 1,
+   "count": 17,
+   "color": "#B0308F",
+   "filter": {
+    "familia": "Arte Urbano"
+   }
+  },
+  {
+   "id": "n30",
+   "label": "Arte Público",
+   "group": "categoria",
+   "level": 2,
+   "count": 17,
+   "color": "#B0308F",
+   "filter": {
+    "familia": "Arte Urbano",
+    "categoria": "Arte Público"
+   }
+  },
+  {
+   "id": "n31",
+   "label": "Cultura y Entretenimiento",
+   "group": "familia",
+   "level": 1,
+   "count": 15,
+   "color": "#2C5F8A",
+   "filter": {
+    "familia": "Cultura y Entretenimiento"
+   }
+  },
+  {
+   "id": "n32",
+   "label": "Cultura",
+   "group": "categoria",
+   "level": 2,
+   "count": 8,
+   "color": "#2C5F8A",
+   "filter": {
+    "familia": "Cultura y Entretenimiento",
+    "categoria": "Cultura"
+   }
+  },
+  {
+   "id": "n33",
+   "label": "Entretenimiento",
+   "group": "categoria",
+   "level": 2,
+   "count": 6,
+   "color": "#2C5F8A",
+   "filter": {
+    "familia": "Cultura y Entretenimiento",
+    "categoria": "Entretenimiento"
+   }
+  },
+  {
+   "id": "n34",
+   "label": "Event",
+   "group": "categoria",
+   "level": 2,
+   "count": 1,
+   "color": "#2C5F8A",
+   "filter": {
+    "familia": "Cultura y Entretenimiento",
+    "categoria": "Event"
+   }
+  },
+  {
+   "id": "n35",
+   "label": "Educación e Innovación",
+   "group": "familia",
+   "level": 1,
+   "count": 8,
+   "color": "#8A6D2C",
+   "filter": {
+    "familia": "Educación e Innovación"
+   }
+  },
+  {
+   "id": "n36",
+   "label": "Tec",
+   "group": "categoria",
+   "level": 2,
+   "count": 6,
+   "color": "#8A6D2C",
+   "filter": {
+    "familia": "Educación e Innovación",
+    "categoria": "Tec"
+   }
+  },
+  {
+   "id": "n37",
+   "label": "School",
+   "group": "categoria",
+   "level": 2,
+   "count": 2,
+   "color": "#8A6D2C",
+   "filter": {
+    "familia": "Educación e Innovación",
+    "categoria": "School"
+   }
+  },
+  {
+   "id": "n38",
+   "label": "Comercio y Servicios",
+   "group": "familia",
+   "level": 1,
+   "count": 5,
+   "color": "#5B4A8A",
+   "filter": {
+    "familia": "Comercio y Servicios"
+   }
+  },
+  {
+   "id": "n39",
+   "label": "Florería",
+   "group": "categoria",
+   "level": 2,
+   "count": 2,
+   "color": "#5B4A8A",
+   "filter": {
+    "familia": "Comercio y Servicios",
+    "categoria": "Florería"
+   }
+  },
+  {
+   "id": "n40",
+   "label": "Store",
+   "group": "categoria",
+   "level": 2,
+   "count": 2,
+   "color": "#5B4A8A",
+   "filter": {
+    "familia": "Comercio y Servicios",
+    "categoria": "Store"
+   }
+  },
+  {
+   "id": "n41",
+   "label": "Shopping",
+   "group": "categoria",
+   "level": 2,
+   "count": 1,
+   "color": "#5B4A8A",
+   "filter": {
+    "familia": "Comercio y Servicios",
+    "categoria": "Shopping"
+   }
+  },
+  {
+   "id": "n42",
+   "label": "Deporte y Bienestar",
+   "group": "familia",
+   "level": 1,
+   "count": 3,
+   "color": "#2C8A7A",
+   "filter": {
+    "familia": "Deporte y Bienestar"
+   }
+  },
+  {
+   "id": "n43",
+   "label": "Sport",
+   "group": "categoria",
+   "level": 2,
+   "count": 3,
+   "color": "#2C8A7A",
+   "filter": {
+    "familia": "Deporte y Bienestar",
+    "categoria": "Sport"
+   }
+  },
+  {
+   "id": "n44",
+   "label": "Sin clasificar",
+   "group": "familia",
+   "level": 1,
+   "count": 9,
+   "color": "#6B6B6B",
+   "filter": {
+    "familia": "Sin clasificar"
+   }
+  },
+  {
+   "id": "n45",
+   "label": "Sin categoría",
+   "group": "categoria",
+   "level": 2,
+   "count": 9,
+   "color": "#6B6B6B",
+   "filter": {
+    "familia": "Sin clasificar",
+    "categoria": "Sin categoría"
+   }
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "n0"
+  },
+  {
+   "from": "n0",
+   "to": "n1"
+  },
+  {
+   "from": "n1",
+   "to": "n2"
+  },
+  {
+   "from": "n1",
+   "to": "n3"
+  },
+  {
+   "from": "n1",
+   "to": "n4"
+  },
+  {
+   "from": "n1",
+   "to": "n5"
+  },
+  {
+   "from": "n1",
+   "to": "n6"
+  },
+  {
+   "from": "n1",
+   "to": "n7"
+  },
+  {
+   "from": "n1",
+   "to": "n8"
+  },
+  {
+   "from": "n1",
+   "to": "n9"
+  },
+  {
+   "from": "n1",
+   "to": "n10"
+  },
+  {
+   "from": "n0",
+   "to": "n11"
+  },
+  {
+   "from": "n11",
+   "to": "n12"
+  },
+  {
+   "from": "n11",
+   "to": "n13"
+  },
+  {
+   "from": "n11",
+   "to": "n14"
+  },
+  {
+   "from": "n11",
+   "to": "n15"
+  },
+  {
+   "from": "n11",
+   "to": "n16"
+  },
+  {
+   "from": "n11",
+   "to": "n17"
+  },
+  {
+   "from": "n0",
+   "to": "n18"
+  },
+  {
+   "from": "n18",
+   "to": "n19"
+  },
+  {
+   "from": "n18",
+   "to": "n20"
+  },
+  {
+   "from": "n0",
+   "to": "n21"
+  },
+  {
+   "from": "n21",
+   "to": "n22"
+  },
+  {
+   "from": "n21",
+   "to": "n23"
+  },
+  {
+   "from": "n21",
+   "to": "n24"
+  },
+  {
+   "from": "n0",
+   "to": "n25"
+  },
+  {
+   "from": "n25",
+   "to": "n26"
+  },
+  {
+   "from": "root",
+   "to": "n27"
+  },
+  {
+   "from": "n27",
+   "to": "n28"
+  },
+  {
+   "from": "root",
+   "to": "n29"
+  },
+  {
+   "from": "n29",
+   "to": "n30"
+  },
+  {
+   "from": "root",
+   "to": "n31"
+  },
+  {
+   "from": "n31",
+   "to": "n32"
+  },
+  {
+   "from": "n31",
+   "to": "n33"
+  },
+  {
+   "from": "n31",
+   "to": "n34"
+  },
+  {
+   "from": "root",
+   "to": "n35"
+  },
+  {
+   "from": "n35",
+   "to": "n36"
+  },
+  {
+   "from": "n35",
+   "to": "n37"
+  },
+  {
+   "from": "root",
+   "to": "n38"
+  },
+  {
+   "from": "n38",
+   "to": "n39"
+  },
+  {
+   "from": "n38",
+   "to": "n40"
+  },
+  {
+   "from": "n38",
+   "to": "n41"
+  },
+  {
+   "from": "root",
+   "to": "n42"
+  },
+  {
+   "from": "n42",
+   "to": "n43"
+  },
+  {
+   "from": "root",
+   "to": "n44"
+  },
+  {
+   "from": "n44",
+   "to": "n45"
+  }
+ ]
+}

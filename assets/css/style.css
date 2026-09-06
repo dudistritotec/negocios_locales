@@ -1,0 +1,277 @@
+/* ============================================================
+   DistritoTec en Mapa — hoja de estilos
+   Concepto: bitácora de campo / plano urbano vivo.
+   Tipografía: Barlow Condensed (rótulos, señalética) + Literata (lectura).
+   Paleta: azul plano (fondo de trabajo) + colores reales de las
+   familias de negocio, tomados directamente de la red conceptual.
+   ============================================================ */
+
+:root{
+  --plano:      #16233F;   /* azul plano / fondo de portada */
+  --plano-2:    #1E2E52;
+  --papel:      #EEEAE0;   /* papel de trabajo */
+  --papel-2:    #E4DFD1;
+  --tinta:      #201E1A;   /* texto principal sobre papel */
+  --tinta-suave:#5B564A;
+  --linea:      #CFC8B4;
+  --blanco-tiza:#F6F4EC;
+
+  --gastronomia: #C4531D;
+  --espacio:     #3F6B4F;
+  --arte:        #B0308F;
+  --cultura:     #2C5F8A;
+  --educacion:   #8A6D2C;
+  --comercio:    #5B4A8A;
+  --deporte:     #2C8A7A;
+  --sinclasif:   #6B6B6B;
+
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --lectura: "Literata", Georgia, "Times New Roman", serif;
+  --dato:    "IBM Plex Mono", "Courier New", monospace;
+
+  --radio: 3px;
+  --sombra: 0 1px 0 rgba(0,0,0,.08);
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+
+body{
+  margin:0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--lectura);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+img{ max-width:100%; display:block; }
+
+a{ color: inherit; }
+a.enlace, .contenido a{
+  color: var(--gastronomia);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+a.enlace:hover, .contenido a:hover{ color: var(--plano); }
+
+h1,h2,h3,h4{
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: .2px;
+  line-height: 1.05;
+  color: var(--tinta);
+  margin: 0 0 .4em 0;
+}
+h1{ font-size: clamp(2.4rem, 6vw, 4.6rem); font-weight: 700; }
+h2{ font-size: clamp(1.7rem, 3.6vw, 2.4rem); margin-top: 2.2em; }
+h3{ font-size: 1.35rem; margin-top: 1.6em; }
+
+p{ margin: 0 0 1.1em 0; max-width: 66ch; }
+.contenido ul, .contenido ol{ max-width: 66ch; }
+li{ margin-bottom:.3em; }
+
+/* ---------- barra de navegación ---------- */
+.barra{
+  position: sticky; top:0; z-index: 40;
+  background: var(--plano);
+  color: var(--blanco-tiza);
+  border-bottom: 3px solid var(--gastronomia);
+}
+.barra-int{
+  max-width: 1180px; margin: 0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  padding: .7rem 1.4rem;
+  font-family: var(--display);
+}
+.marca{
+  font-size: 1.35rem; font-weight: 700; letter-spacing:.3px;
+  color: var(--blanco-tiza); text-decoration:none;
+  display:flex; align-items:baseline; gap:.4rem;
+}
+.marca small{ font-family: var(--dato); font-size:.6rem; color: var(--gastronomia); font-weight:600; }
+.nav{ display:flex; gap: 1.4rem; flex-wrap: wrap; }
+.nav a{
+  color: var(--blanco-tiza); text-decoration:none;
+  font-size: 1.02rem; font-weight:500; opacity:.86;
+  border-bottom: 2px solid transparent; padding-bottom:2px;
+}
+.nav a:hover, .nav a.activa{ opacity:1; border-color: var(--gastronomia); }
+
+/* ---------- portada / hero ---------- */
+.portada{
+  background: linear-gradient(180deg, var(--plano) 0%, var(--plano-2) 100%);
+  color: var(--blanco-tiza);
+  padding: 4.4rem 1.4rem 3.4rem;
+  position: relative;
+  overflow: hidden;
+}
+.portada::after{
+  content:"";
+  position:absolute; inset:0;
+  background-image:
+    linear-gradient(rgba(246,244,236,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(246,244,236,.06) 1px, transparent 1px);
+  background-size: 46px 46px;
+  pointer-events:none;
+}
+.portada-int{ max-width:1180px; margin:0 auto; position:relative; }
+.kicker{
+  font-family: var(--dato); font-size:.82rem; color:#E7A98A;
+  margin-bottom: .9rem; display:block;
+}
+.portada h1{ color:var(--blanco-tiza); max-width: 14ch; }
+.portada .lead{
+  font-family: var(--lectura); font-size:1.18rem; max-width: 54ch;
+  color: #D9D5C6; margin-top:1rem;
+}
+.cifra-fila{
+  display:flex; flex-wrap:wrap; gap: 2.6rem; margin-top: 2.6rem;
+}
+.cifra .num{
+  font-family: var(--display); font-size: 3rem; font-weight:700;
+  color: var(--blanco-tiza); line-height:1;
+}
+.cifra .num span{ color: #E7A98A; }
+.cifra .etq{ font-size:.92rem; color:#B9B6A8; margin-top:.25rem; max-width:20ch; }
+
+/* ---------- leyenda de familias (reutilizable) ---------- */
+.leyenda{
+  display:flex; flex-wrap:wrap; gap:.6rem 1rem; margin: 1.6rem 0 2.2rem;
+  padding: 0; list-style:none;
+}
+.leyenda li{
+  display:flex; align-items:center; gap:.5rem;
+  font-family: var(--display); font-size: 1rem; font-weight:600;
+  background: var(--blanco-tiza); border:1px solid var(--linea);
+  padding: .35rem .7rem; border-radius: var(--radio);
+  margin:0;
+}
+.chip{ width:.85rem; height:.85rem; border-radius:2px; flex:none; }
+
+/* ---------- secciones sobre papel ---------- */
+main.contenido{
+  max-width: 900px; margin: 0 auto; padding: 3rem 1.4rem 5rem;
+}
+main.contenido.ancho{ max-width: 1180px; }
+
+.franja{
+  background: var(--papel-2);
+  border-top: 1px solid var(--linea);
+  border-bottom: 1px solid var(--linea);
+}
+.franja .contenido{ padding-top:2.6rem; padding-bottom:2.6rem; }
+
+/* tarjetas de familia en portada */
+.grid-familias{
+  display:grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 1rem; margin: 1.8rem 0 2.4rem;
+}
+.tarjeta{
+  background: var(--blanco-tiza);
+  border: 1px solid var(--linea);
+  border-left: 6px solid var(--fam, var(--gastronomia));
+  padding: 1.1rem 1.2rem;
+  border-radius: var(--radio);
+}
+.tarjeta h4{ font-size:1.15rem; margin-bottom:.2rem; }
+.tarjeta .conteo{ font-family: var(--dato); font-size:.85rem; color: var(--tinta-suave); }
+.tarjeta p{ font-size:.95rem; margin: .5rem 0 0; color: var(--tinta-suave); }
+
+/* botones / cta */
+.cta{
+  display:inline-block; font-family: var(--display); font-weight:600;
+  background: var(--gastronomia); color: var(--blanco-tiza);
+  padding: .65rem 1.3rem; border-radius: var(--radio); text-decoration:none;
+  border: none; font-size: 1.05rem; cursor:pointer;
+}
+.cta:hover{ background:#A5451A; color:var(--blanco-tiza); }
+.cta.fantasma{
+  background: transparent; color: var(--blanco-tiza);
+  border: 1px solid rgba(246,244,236,.5);
+}
+.cta.fantasma:hover{ border-color: var(--blanco-tiza); }
+.cta-fila{ display:flex; gap:1rem; flex-wrap:wrap; margin-top:2rem; }
+
+/* ---------- red conceptual ---------- */
+.red-envoltura{
+  background: var(--plano);
+  border-radius: var(--radio);
+  border: 1px solid var(--plano-2);
+  overflow:hidden;
+}
+#red{ width:100%; height: 640px; background: var(--plano); }
+.red-panel{
+  border-top: 1px solid var(--plano-2);
+  background: var(--plano-2);
+  color: var(--blanco-tiza);
+  padding: 1.1rem 1.3rem;
+  font-family: var(--lectura);
+  min-height: 4.4rem;
+}
+.red-panel .titulo{ font-family: var(--display); font-size:1.25rem; font-weight:700; }
+.red-panel .meta{ font-family: var(--dato); font-size:.8rem; color:#B9B6A8; margin:.2rem 0 .5rem; }
+.red-panel ul{ margin:.3rem 0 0; padding-left:1.1rem; max-width:none; columns: 2; column-gap:2rem; }
+.red-panel li{ font-size:.92rem; color:#E7E4D8; break-inside: avoid; }
+.red-ayuda{ font-size:.86rem; color: var(--tinta-suave); margin-top:.8rem; }
+
+/* controles */
+.controles{ display:flex; gap:.6rem; flex-wrap:wrap; margin: 1rem 0 1.2rem; }
+.controles button{
+  font-family: var(--display); font-size:.95rem; font-weight:600;
+  background: var(--blanco-tiza); border:1px solid var(--linea);
+  padding:.4rem .85rem; border-radius: var(--radio); cursor:pointer;
+}
+.controles button.activo{ background: var(--plano); color: var(--blanco-tiza); border-color: var(--plano); }
+
+/* ---------- mapa ---------- */
+#mapa{ width:100%; height: 600px; border-radius: var(--radio); border:1px solid var(--linea); }
+
+/* ---------- directorio ---------- */
+.buscador{
+  display:flex; gap:.6rem; flex-wrap:wrap; margin: 1.2rem 0 1.6rem;
+}
+.buscador input[type="search"]{
+  flex: 1 1 260px; font-family: var(--lectura); font-size:1rem;
+  padding:.6rem .8rem; border:1px solid var(--linea); border-radius: var(--radio);
+  background: var(--blanco-tiza);
+}
+.buscador select{
+  font-family: var(--lectura); font-size:1rem; padding:.6rem .8rem;
+  border:1px solid var(--linea); border-radius: var(--radio); background: var(--blanco-tiza);
+}
+table.directorio{ width:100%; border-collapse: collapse; font-size:.96rem; }
+table.directorio th, table.directorio td{
+  text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--linea);
+  vertical-align: top;
+}
+table.directorio th{
+  font-family: var(--display); font-weight:700; font-size:.95rem;
+  border-bottom: 2px solid var(--tinta);
+}
+table.directorio .etiqueta{
+  display:inline-block; font-family: var(--dato); font-size:.72rem;
+  padding:.15rem .4rem; border-radius:2px; color:#fff;
+}
+.conteo-resultados{ font-family: var(--dato); font-size:.85rem; color: var(--tinta-suave); margin-bottom:.6rem; }
+
+/* ---------- pie ---------- */
+footer{
+  background: var(--plano); color:#B9B6A8;
+  padding: 2.2rem 1.4rem; font-size:.9rem;
+}
+footer .pie-int{ max-width:1180px; margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+footer a{ color:#E7A98A; text-decoration:none; }
+
+/* ---------- utilidades ---------- */
+.nota{
+  border-left: 3px solid var(--gastronomia); background: var(--papel-2);
+  padding: .9rem 1.1rem; font-size:.95rem; color: var(--tinta-suave); border-radius: 0 var(--radio) var(--radio) 0;
+  max-width: 66ch;
+}
+.dato{ font-family: var(--dato); }
+
+@media (max-width: 640px){
+  .red-panel ul{ columns: 1; }
+  #red{ height: 480px; }
+}

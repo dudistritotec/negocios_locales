@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<script>window.SITE_BASEURL = "{{ site.baseurl }}";</script>
+</head>
+<body>
+
+<div class="barra">
+  <div class="barra-int">
+    <a class="marca" href="{{ '/' | relative_url }}">DistritoTec en Mapa <small>ecosistema&nbsp;comercial</small></a>
+    <nav class="nav">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="activa"{% endif %}>Inicio</a>
+      <a href="{{ '/red-conceptual/' | relative_url }}" {% if page.url contains 'red-conceptual' %}class="activa"{% endif %}>Red conceptual</a>
+      <a href="{{ '/mapa/' | relative_url }}" {% if page.url contains 'mapa' %}class="activa"{% endif %}>Mapa</a>
+      <a href="{{ '/directorio/' | relative_url }}" {% if page.url contains 'directorio' %}class="activa"{% endif %}>Directorio</a>
+      <a href="{{ '/metodologia/' | relative_url }}" {% if page.url contains 'metodologia' %}class="activa"{% endif %}>Metodología</a>
+    </nav>
+  </div>
+</div>
+
+{{ content }}
+
+<footer>
+  <div class="pie-int">
+    <div>DistritoTec en Mapa — levantamiento del ecosistema comercial de DistritoTec, Monterrey.</div>
+    <div>Datos propios (Reveel) · <a href="{{ '/metodologia/' | relative_url }}">ver metodología</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
