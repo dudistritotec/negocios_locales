@@ -3,7 +3,7 @@ description: >-
   Ecosistema comercial de DistritoTec — un levantamiento de 207 negocios,
   espacios públicos y expresiones culturales alrededor del Tecnológico
   de Monterrey, leído como red conceptual.
-baseurl: "negocios_locales"
+baseurl: "/negocios_locales"
 url: ""
 
 markdown: kramdown
