@@ -14,11 +14,10 @@
   fetch(base + '/assets/data/negocios.json').then(r => r.json()).then(negocios => {
 
     const map = L.map('mapa', { scrollWheelZoom: false }).setView([25.6524, -100.2865], 15);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap &copy; CARTO',
-      maxZoom: 19
-    }).addTo(map);
-
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);  
+   
     const layers = {};
     Object.keys(famColor).forEach(f => layers[f] = L.layerGroup());
 
