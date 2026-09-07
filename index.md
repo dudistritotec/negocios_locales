@@ -4,9 +4,9 @@ title: Inicio
 
 <section class="portada">
   <div class="portada-int">
-    <span class="kicker">LEVANTAMIENTO REVEEL · DISTRITOTEC, MONTERREY</span>
+    <span class="kicker">Negocios Locales · distritotec, MONTERREY</span>
     <h1>La vocación comercial de un distrito se lee en sus fachadas.</h1>
-    <p class="lead">207 negocios, espacios públicos y expresiones culturales de DistritoTec, organizados como una red conceptual: familias, categorías y giros específicos que muestran de qué vive —y para qué sirve— esta zona alrededor del Tecnológico de Monterrey.</p>
+    <p class="lead">207 negocios, espacios públicos y expresiones culturales de distritotec, organizados como una red conceptual: familias, categorías y giros específicos que muestran de qué vive —y para qué sirve— esta zona alrededor del Tecnológico de Monterrey.</p>
 
     <div class="cifra-fila">
       <div class="cifra"><div class="num">207</div><div class="etq">puntos de interés levantados</div></div>
@@ -23,7 +23,7 @@ title: Inicio
 
 <main class="contenido" markdown="1">
 
-## De qué vive DistritoTec
+## De qué vive distritotec
 
 Cuando se ordenan los 207 registros del levantamiento por su tipología de servicio, aparece una vocación clara: **6 de cada 10 puntos del distrito son de gastronomía y bebidas** — restaurantes, cafés, bares, panaderías y puestos de antojitos que conviven, a distancia caminable, con el segundo eje del distrito: sus espacios públicos, murales y arte urbano. Cultura, entretenimiento, educación, deporte y comercio especializado completan un ecosistema pequeño en superficie pero denso en oferta.
 
@@ -53,7 +53,7 @@ Esa combinación —campus, comida y calle— es la que la red conceptual de la 
   <div class="tarjeta" style="--fam:var(--arte)">
     <h4>Arte Urbano</h4>
     <div class="conteo">17 puntos</div>
-    <p>Murales y galerías abiertas del Programa de Arte Público DistritoTec.</p>
+    <p>Murales y galerías abiertas del Programa de Arte Público distritotec.</p>
   </div>
   <div class="tarjeta" style="--fam:var(--cultura)">
     <h4>Cultura y Entretenimiento</h4>
@@ -80,7 +80,7 @@ Esa combinación —campus, comida y calle— es la que la red conceptual de la 
 ## Cómo explorar este sitio
 
 - **[Red conceptual]({{ '/red-conceptual/' | relative_url }}):** el ecosistema como diagrama de nodos.
-- **[Mapa]({{ '/mapa/' | relative_url }}):** los 207 puntos ubicados geográficamente sobre DistritoTec.
+- **[Mapa]({{ '/mapa/' | relative_url }}):** los 207 puntos ubicados geográficamente sobre distritotec.
 - **[Directorio]({{ '/directorio/' | relative_url }}):** la lista completa, filtrable por familia, categoría y giro.
 - **[Metodología]({{ '/metodologia/' | relative_url }}):** cómo se levantaron y clasificaron los datos.
 

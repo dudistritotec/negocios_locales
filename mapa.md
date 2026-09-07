@@ -14,7 +14,7 @@ Los 207 puntos ubicados sobre DistritoTec, coloreados por familia de negocio. De
 
 <div id="leyenda-mapa" style="display:flex;flex-wrap:wrap;gap:.9rem 1.4rem;margin-top:1.2rem;font-size:.95rem;"></div>
 
-<p class="nota">Cartografía base: CARTO / OpenStreetMap. Las coordenadas provienen del levantamiento original de Reveel.</p>
+<p class="nota">Cartografía base: CARTO / OpenStreetMap.</p>
 
 </main>
 

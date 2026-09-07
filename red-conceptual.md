@@ -19,13 +19,13 @@ Haz clic en cualquier nodo para ver qué negocios lo componen. Arrastra para rea
 <div class="red-envoltura">
   <div id="red"></div>
   <div id="panel-red" class="red-panel">
-    <div class="titulo">DistritoTec</div>
+    <div class="titulo">distritotec</div>
     <div class="meta">207 negocios · haz clic en un nodo para explorarlo</div>
     <ul class="lista"></ul>
   </div>
 </div>
 
-<p class="red-ayuda">La red parte de una clasificación editorial propia sobre los datos crudos de Reveel: los giros específicos de gastronomía se infirieron a partir del nombre y la descripción de cada negocio (ver <a href="{{ '/metodologia/' | relative_url }}">metodología</a>).</p>
+<p class="red-ayuda">La red parte de una clasificación editorial propia: los giros específicos de gastronomía se infirieron a partir del nombre y la descripción de cada negocio (ver <a href="{{ '/metodologia/' | relative_url }}">metodología</a>).</p>
 
 ## Lectura de la red
 
