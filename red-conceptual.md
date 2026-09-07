@@ -31,7 +31,7 @@ Haz clic en cualquier nodo para ver qué negocios lo componen. Arrastra para rea
 
 **Gastronomía y Bebidas** domina el mapa con más nodos y mayor tamaño acumulado: dentro de esa familia, **tacos, antojitos y tortas** es el giro más numeroso, seguido de **café y repostería** y de **hamburguesas, pizza y comida rápida**. Es la vocación comercial más evidente del distrito: comida de consumo rápido y frecuente, pensada para población estudiantil y flujo peatonal constante.
 
-Alrededor de ese núcleo gastronómico aparecen dos familias que sostienen la experiencia urbana sin ser comercios: **espacio público y naturaleza** (parques) y **arte urbano** (murales y galerías abiertas), ambas parte del Programa de Arte Público DistritoTec. Cultura, educación, deporte y comercio especializado son familias más pequeñas pero que amplían el uso del distrito más allá de comer y caminar.
+Alrededor de ese núcleo gastronómico aparecen dos familias que sostienen la experiencia urbana sin ser comercios: **espacio público y naturaleza** (parques) y **arte urbano** (murales y galerías abiertas), ambas parte del Programa de Arte Público distritotec. Cultura, educación, deporte y comercio especializado son familias más pequeñas pero que amplían el uso del distrito más allá de comer y caminar.
 
 </main>
 

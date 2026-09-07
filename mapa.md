@@ -8,7 +8,7 @@ permalink: /mapa/
 
 # Mapa del ecosistema comercial
 
-Los 207 puntos ubicados sobre DistritoTec, coloreados por familia de negocio. Desactiva capas en la leyenda para aislar una familia, o haz clic en un punto para ver su ficha.
+Los 207 puntos ubicados sobre distritotec, coloreados por familia de negocio. Desactiva capas en la leyenda para aislar una familia, o haz clic en un punto para ver su ficha.
 
 <div id="mapa"></div>
 
